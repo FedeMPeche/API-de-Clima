@@ -1,4 +1,4 @@
-'use strict';
+
 
 const input = document.getElementById("search-input")
 const button = document.getElementById("boton")

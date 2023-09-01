@@ -9,7 +9,7 @@ button.addEventListener('click', function (event) {
     event.preventDefault()
     const key = "067936edef114d6183803508230109"
     const ciudad = input.value;
-    const URL = `http://api.weatherapi.com/v1/forecast.json?key=${key}&q=${ciudad}&days=1&aqi=no&alerts=no`;
+    const URL = `https://api.weatherapi.com/v1/forecast.json?key=${key}&q=${ciudad}&days=1&aqi=no&alerts=no`;
 
     fetch(URL)
         .then(response => response.json())
